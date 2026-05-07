@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.json({ message: "Backend is running 🚀 v2" });
+    res.json({ message: "Backend is running 🚀 v3" });
 });
 
 app.get("/api", (req, res) => {
