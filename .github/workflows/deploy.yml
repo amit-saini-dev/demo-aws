@@ -23,6 +23,6 @@ jobs:
             cd /home/ec2-user
             git pull origin main
             docker compose down
-            docker build -t backend ./backend --no-cache
-            docker build -t frontend ./frontend --no-cache
-            docker compose up -d --no-cache
+            docker build -t backend ./backend
+            docker build -t frontend ./frontend
+            docker compose up -d
